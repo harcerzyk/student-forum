@@ -12,11 +12,6 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :i %>
-    <%= form.text_field :i, id: :student_i %>
-  </div>
-
-  <div class="field">
     <%= form.label :index %>
     <%= form.text_field :index, id: :student_index %>
   </div>
@@ -24,6 +19,15 @@
   <div class="field">
     <%= form.label :name %>
     <%= form.text_field :name, id: :student_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :password %>
+    <%= form.password_field :password, id: :student_password %>
+  </div>
+  <div class="field">
+    <%= form.label :password_confirmation %>
+    <%= form.password_field :password_confirmation, id: :student_password_confirmation %>
   </div>
 
   <div class="actions">
